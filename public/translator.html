@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <script>
+    
+    function translatePage() {
+        var langCode = document.getElementById("languageSelect").value;
+        if (langCode) {
+            if (!document.getElementById("googleTranslateScript")) {
+                var googleTranslateElement = document.createElement("script");
+                googleTranslateElement.id = "googleTranslateScript";
+                googleTranslateElement.src = "https://translate.google.com/translate_a/element.js?cb=initGoogleTranslate";
+                document.body.appendChild(googleTranslateElement);
+            } else {
+                initGoogleTranslate(langCode);
+            }
+            // Redirect to home page
+            setTimeout(function() {
+                window.location.href = "/index.html";  // Ensure this points to your homepage
+            }, 2000);
+        }
+    }
+
+
+
+
+        function initGoogleTranslate(langCode) {
+            document.getElementById("google_translate_element").innerHTML = ""; // Clear previous instance
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: langCode,
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('agriculture-field-grain-5980.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h2 {
+            color: #333;
+        }
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        #google_translate_element {
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container notranslate" id="google_translate_element">
+        <h2>Select Language:</h2>
+        <select id="languageSelect" onchange="translatePage()">
+            <option value="">Select Language</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+            <option value="zh-CN">中文</option>
+            <option value="ja">日本語</option>
+            <option value="ru">Русский</option>
+            <option value="hi">हिन्दी</option>
+        </select>
+    </div>
+    
+    <p>This is a sample text in English that will be translated.</p>
+</body>
+</html>

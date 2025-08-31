@@ -1,0 +1,104 @@
+.banner {
+  height: 90vh;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.banner__title_head {
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+
+
+
+.banner__title_head font {
+  color: rgb(90, 187, 119);
+}
+
+.banner__title_tail {
+  text-align: center;
+  margin-top: 10px;
+  color: azure;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.banner__buttons {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.banner__buttons :hover{
+  cursor: pointer !important;
+  background-color: hsl(0, 0%, 20%) !important;
+}
+
+.banner__button {
+  color: white !important;
+  background-color: rgba(9, 9, 9, 0.8) !important;
+  padding: 10px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+  
+  
+}
+
+
+
+.banner__socialMedia {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  
+}
+
+.social_icon_linkedin {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #0077b5;
+  padding: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.social_icon_github {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #6cc644;
+  padding: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.social_icon_linkedin:hover {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social_icon_github:hover {
+  background-color: #fff;
+  border-radius: 50%;
+  color: green;
+}
+
+

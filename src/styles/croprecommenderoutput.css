@@ -1,0 +1,30 @@
+.output_container { 
+  width: 100%; 
+  margin-top: 20px; 
+  display: flex; 
+  justify-content: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.back__button { 
+  margin: 16px !important; 
+  padding: 12px 24px !important; 
+  font-size: 1rem !important; 
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.output_container__card { 
+  margin: 16px;
+  transition: all 0.3s ease;
+}
+
+.output_container__card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}

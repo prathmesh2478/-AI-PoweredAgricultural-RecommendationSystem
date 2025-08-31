@@ -1,0 +1,171 @@
+/* src/components/Scheme.css */
+.scheme-container {
+  /* background-color: #f8f9fa; */
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-title {
+  background: linear-gradient(135deg, #2e8b57 0%, #1e5631 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-emoji {
+  font-size: 1.4em;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.search-wrapper {
+  position: relative;
+  max-width: 550px;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  border-radius: 30px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #28a745;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.25);
+  border-color: #28a745;
+}
+
+.schemes-count {
+  color: #6c757d;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.scheme-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.scheme-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(40, 167, 69, 0.2);
+}
+
+.scheme-card .card-title {
+  color: #28a745;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.scheme-card .card-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #28a745;
+  border-radius: 3px;
+}
+
+.scheme-card .card-text {
+  color: #495057;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  color: #28a745;
+  border: 2px solid #28a745;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #28a745;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Modal styling */
+.custom-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.custom-modal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+  padding: 20px 30px;
+}
+
+.custom-modal .modal-title {
+  color: #28a745;
+  font-size: 1.5rem;
+}
+
+.custom-modal .modal-body {
+  padding: 30px;
+}
+
+.scheme-details {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #495057;
+  margin-bottom: 25px;
+}
+
+.official-site-btn {
+  background-color: #28a745;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+  transition: all 0.3s ease;
+}
+
+.official-site-btn:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(40, 167, 69, 0.4);
+  color: white;
+}
+
+/* No results */
+.no-results {
+  padding: 40px;
+  color: #6c757d;
+}
+
+.no-results i {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+/* Add Bootstrap Icons */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"); */

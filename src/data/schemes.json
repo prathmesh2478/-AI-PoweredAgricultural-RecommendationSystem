@@ -1,0 +1,176 @@
+[
+    {
+      "name": "PM-Kisan Samman Nidhi (PM-KISAN)",
+      "description": "Provides ₹6,000 per year in three installments to small and marginal farmers.",
+      "link": "https://pmkisan.gov.in/",
+      "details": "This scheme aims to provide direct income support to all landholding farmers to help them manage financial needs for agricultural and allied activities."
+    },
+    {
+      "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "description": "Crop insurance scheme to protect farmers from losses due to natural disasters.",
+      "link": "https://pmfby.gov.in/",
+      "details": "The scheme provides financial support to farmers suffering from crop loss or damage due to unforeseen events like droughts, floods, and other calamities."
+    },
+    {
+      "name": "Kisan Credit Card (KCC) Scheme",
+      "description": "Provides farmers with low-interest credit for agricultural needs.",
+      "link": "https://www.india.gov.in/spotlight/kisan-credit-card-scheme",
+      "details": "The KCC scheme allows farmers to avail short-term loans with flexible repayment terms to meet farming expenses."
+    },
+    {
+      "name": "Soil Health Card Scheme",
+      "description": "Helps farmers analyze soil quality and improve productivity.",
+      "link": "https://soilhealth.dac.gov.in/",
+      "details": "The scheme provides farmers with soil health reports to guide appropriate fertilizer use for better crop yield."
+    },
+    {
+      "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+      "description": "Promotes organic farming through traditional and natural methods.",
+      "link": "https://pgsindia-ncof.gov.in/",
+      "details": "This scheme encourages farmers to adopt organic farming and avoid synthetic fertilizers and pesticides."
+    },
+    {
+      "name": "National Agriculture Market (eNAM)",
+      "description": "An online trading platform for better price discovery and marketing of agricultural produce.",
+      "link": "https://www.enam.gov.in/",
+      "details": "The eNAM platform connects farmers with traders and buyers across India for better pricing and market reach."
+    },
+    {
+      "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+      "description": "Provides states with flexible funding to enhance agricultural productivity.",
+      "link": "https://rkvy.nic.in/",
+      "details": "RKVY aims to strengthen farming infrastructure and technology for sustainable agricultural growth."
+    },
+    {
+      "name": "Micro Irrigation Fund (MIF)",
+      "description": "Supports drip and sprinkler irrigation for efficient water use.",
+      "link": "https://pmksy.gov.in/",
+      "details": "The fund provides financial assistance to farmers adopting micro-irrigation techniques to reduce water wastage."
+    },
+    {
+      "name": "National Mission for Sustainable Agriculture (NMSA)",
+      "description": "Promotes climate-resilient agriculture through sustainable practices.",
+      "link": "https://nmsa.dac.gov.in/",
+      "details": "NMSA focuses on water conservation, soil health, and climate adaptation for long-term agricultural sustainability."
+    },
+    {
+      "name": "Agri-Clinics and Agri-Business Centres Scheme",
+      "description": "Supports agripreneurs in setting up advisory and business centers for farmers.",
+      "link": "https://www.nabard.org/",
+      "details": "This scheme helps agriculture graduates establish businesses to provide farmers with technical guidance and services."
+    },
+    {
+      "name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+      "description": "Encourages dairy farming through financial assistance.",
+      "link": "https://dahd.nic.in/",
+      "details": "The scheme offers loans and subsidies for setting up dairy farms and modernizing milk production facilities."
+    },
+    {
+      "name": "National Food Security Mission (NFSM)",
+      "description": "Aims to increase food grain production through sustainable methods.",
+      "link": "https://nfsm.gov.in/",
+      "details": "NFSM provides financial support for improved seed distribution, soil fertility enhancement, and better irrigation."
+    },
+    {
+      "name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+      "description": "Ensures efficient irrigation and water conservation for farmers.",
+      "link": "https://pmksy.gov.in/",
+      "details": "PMKSY focuses on water conservation, micro-irrigation, and efficient water management for sustainable farming."
+    },
+    {
+      "name": "Livestock Insurance Scheme",
+      "description": "Provides insurance coverage for cattle, buffaloes, and other livestock.",
+      "link": "https://dahd.nic.in/",
+      "details": "The scheme protects farmers from financial losses due to the death of insured livestock."
+    },
+    {
+      "name": "Operation Greens",
+      "description": "Aims to stabilize the supply of Tomato, Onion, and Potato (TOP) crops.",
+      "link": "https://mofpi.nic.in/",
+      "details": "The scheme provides subsidies for storage, transportation, and processing of perishable crops."
+    },
+    {
+      "name": "Agricultural Mechanization Program",
+      "description": "Promotes the use of advanced farming equipment.",
+      "link": "https://agricoop.nic.in/",
+      "details": "The program provides financial aid for purchasing modern agricultural machinery like tractors and harvesters."
+    },{
+        "name": "PM-Kisan Samman Nidhi (PM-KISAN)",
+        "description": "Provides ₹6,000 per year in three installments to small and marginal farmers.",
+        "link": "https://pmkisan.gov.in/",
+        "details": "This scheme aims to provide direct income support to all landholding farmers to help them manage financial needs for agricultural and allied activities."
+      },
+      {
+        "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "description": "Crop insurance scheme to protect farmers from losses due to natural disasters.",
+        "link": "https://pmfby.gov.in/",
+        "details": "The scheme provides financial support to farmers suffering from crop loss or damage due to unforeseen events like droughts, floods, and other calamities."
+      },
+      {
+        "name": "Kisan Credit Card (KCC) Scheme",
+        "description": "Provides farmers with low-interest credit for agricultural needs.",
+        "link": "https://www.india.gov.in/spotlight/kisan-credit-card-scheme",
+        "details": "The KCC scheme allows farmers to avail short-term loans with flexible repayment terms to meet farming expenses."
+      },
+      {
+        "name": "Agriculture Infrastructure Fund (AIF)",
+        "description": "Provides financial support for building agricultural infrastructure like cold storage and warehouses.",
+        "link": "https://agriinfra.dac.gov.in/",
+        "details": "AIF offers low-interest loans to develop post-harvest management and community farming assets."
+      },
+      {
+        "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+        "description": "Encourages mechanization to improve farm productivity.",
+        "link": "https://agricoop.nic.in/",
+        "details": "The scheme provides subsidies for modern farm equipment like tractors, harvesters, and seed drills."
+      },
+      {
+        "name": "Blue Revolution",
+        "description": "Promotes sustainable fisheries development.",
+        "link": "https://nfdb.gov.in/",
+        "details": "The scheme aims to enhance fish production through improved aquaculture techniques and better market linkages."
+      },
+      {
+        "name": "National Beekeeping & Honey Mission (NBHM)",
+        "description": "Supports beekeeping and honey production for additional farm income.",
+        "link": "https://nbhm.gov.in/",
+        "details": "NBHM provides training, infrastructure, and financial support for beekeepers."
+      },
+      {
+        "name": "Rashtriya Gokul Mission",
+        "description": "Improves indigenous cattle breeds and dairy productivity.",
+        "link": "https://dahd.nic.in/",
+        "details": "The scheme promotes the breeding of indigenous cows and enhances milk production."
+      },
+      {
+        "name": "Organic Farming Promotion Scheme",
+        "description": "Encourages farmers to adopt organic farming practices.",
+        "link": "https://pgsindia-ncof.gov.in/",
+        "details": "Provides training, certification, and financial aid to transition to organic farming."
+      },
+      {
+        "name": "National Horticulture Mission (NHM)",
+        "description": "Supports the development of the horticulture sector.",
+        "link": "https://nhb.gov.in/",
+        "details": "NHM offers financial aid for fruit and vegetable cultivation, greenhouse farming, and cold storage."
+      },
+      {
+        "name": "PM Formalization of Micro Food Processing Enterprises (PM-FME)",
+        "description": "Provides financial support for food processing enterprises.",
+        "link": "https://mofpi.nic.in/",
+        "details": "The scheme assists small food processing businesses with credit-linked subsidies and skill training."
+      },
+      {
+        "name": "Watershed Development Programme",
+        "description": "Promotes soil and water conservation in rain-fed areas.",
+        "link": "https://dolr.gov.in/",
+        "details": "The program enhances land productivity through water harvesting, afforestation, and soil improvement techniques."
+      },
+      {
+        "name": "Attracting and Retaining Youth in Agriculture (ARYA)",
+        "description": "Encourages young entrepreneurs in the agriculture sector.",
+        "link": "https://icar.org.in/",
+        "details": "ARYA supports rural youth with training and financial assistance for agribusiness startups."
+      }
+  ]
+  

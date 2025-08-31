@@ -1,0 +1,160 @@
+.weather-container {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+.weather-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.search-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.search-container button:hover {
+    background: #357ab8;
+}
+
+.unit-toggle {
+    background: #6c757d !important;
+}
+
+.unit-toggle:hover {
+    background: #5a6268 !important;
+}
+
+.loading {
+    text-align: center;
+    color: #6c757d;
+    margin: 20px 0;
+}
+
+.error {
+    color: #d9534f;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 5px;
+}
+
+.weather-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.weather-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.weather-header p {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.weather-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.temperature img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.details {
+    text-align: right;
+    color: #555;
+    flex: 1;
+    min-width: 150px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.alerts {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff3cd;
+    color: #856404;
+}
+
+.alerts p {
+    margin: 5px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .weather-container {
+        padding: 15px;
+    }
+    
+    .search-container button {
+        flex: 1;
+    }
+    
+    .weather-main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .details {
+        text-align: left;
+        width: 100%;
+    }
+}
